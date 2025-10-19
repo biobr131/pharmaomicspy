@@ -10,6 +10,6 @@ services:
     ports:
      - "8888:8888"
     volumes:
-     - ./notebooks:/usr/src/
+     - .:/usr/src/
     tty: true
     stdin_open: true
